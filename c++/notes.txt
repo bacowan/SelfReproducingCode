@@ -1,0 +1,8 @@
+# Description
+# This implementation relies on compiler directives.
+# It defines a function which runs whatever code it is given
+# and then prints the full command that runs it, and an
+# equivelant function which prints first and then runs.
+# These two functions are then used to print what comes before
+# and after them. Since the the functions also print themselves,
+# the code that runs them is taken care of in the output.

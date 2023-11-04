@@ -1,0 +1,22 @@
+# Explanation:
+# The program creates a string with a print statement, then executes that string as code. Inside of this string, it reassigns the value of itself.
+# Without the inclusion of quotation marks or correct newlines, this could be written as
+#
+# str = '''str = "str = " + str + "exec(str)"
+# print(str)'''
+# exec(str)
+#
+# If we were to then replace the exec statement with the actual code being run, it would look like this
+# 
+# str = '''str = "str = " + str + "exec(str)"
+# print(str)'''
+# str = "str = " + str + "exec(str)"
+# print(str)
+#
+# Here we can see that there are three steps (the first two lines include a multiline string, and is thus one line):
+# 1. Assign the initial value of the string
+# 2. Reassign the string to a value which includes the extra code surrounding the string ('str =' and 'exec')
+# 3. Print the result
+#
+# This in itself isn't complete because it excludes the tripple quotes. To fix this, we simply add the join statements into the string.
+# Adding them verbatum wouldn't work since that would close the string, so we have to do it dynamically.
