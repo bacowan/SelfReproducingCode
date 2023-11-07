@@ -1,0 +1,5 @@
+# This solution creates a function which prints whatever it is sent with the code that called it
+# (so if the line of code is "printQueue('hi')" it will print "printQueue('hi')") and the
+# queues the string for later. At the end, it calls the end function which prints all of the values it was sent.
+# The first half of this code calls the printQueue function for each line of code, which print those values out
+# and the second half is the functions themselves, which get displayed when the end function is called.
