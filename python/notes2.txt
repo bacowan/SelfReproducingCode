@@ -1,5 +1,5 @@
 # Explanation
 # This attempts to solve the problem without using any fancy features or extra functions. It just uses string
-# manipulation and prints the strings, much like the sample provided. Notable parts of this are its use of
+# manipulation and prints the strings, much like the sample provided in the lecture notes. Notable parts of this are its use of
 # r strings to make sure quotes can be escaped but the backslash remains (a unique property of r strings),
 # and the use of \n and string.replace to create newlines.

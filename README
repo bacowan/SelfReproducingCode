@@ -1,0 +1,9 @@
+The solutions to the self reproducing problem are located in the following locations:
+- python/selfReproduce1.py
+- python/selfReproduce2.py
+- python/selfReproduce3.py
+- javascript/selfReproduce.js
+- c++/selfReproduce.cpp
+- c#/selfReproducing/Program.cs
+
+Each solution also includes an brief explanation of the code which is located in the same directory as the code itself in a file called notes.txt. For the python solutions numbered 1-3, the explanation is stored in the notes#.txt file with the corresponding number.
